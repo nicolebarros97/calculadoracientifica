@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Calculadora Nicole Barros</title>
 </head>
 <body>
     <div class="container">
         <nav>
-            <a href="https://github.com/nicolebarros97" title="github iconos" class="github"><img src="../Calculadora/Imagenes/github.png"></a>
-            <a href="" title="linkedin iconos" class="linkedin"><img src="../Calculadora/Imagenes/linkedin.png"></a>
+            <a href="https://github.com/nicolebarros97" title="github iconos" class="github"><img src="Imagenes/github.png"></a>
+            <a href="" title="linkedin iconos" class="linkedin"><img src="Imagenes/linkedin.png"></a>
         </nav>
     </div>
     <div id="titulo">
@@ -22,7 +22,8 @@
     </div>
     <div id="cajaCalculadora">
         <div class="resultado">
-            <input id="resultado" placeholder="Mi resultado..."></input></div>
+            <input id="resultado" placeholder="Mi resultado..."></input>
+        </div>
         <div class="cajaBotones">
             <button class="boton">(</button>
             <button class="boton">)</button>
@@ -36,9 +37,9 @@
             <button class="boton">x<sup>3</sup></button>
             <button class="boton">√<sup>3</sup></button>
             <button class="boton">x<sup>n</sup></button>
-            <button class="boton">1</button>
+            <button class="boton" id="n1">1</button>
             <button class="boton">2</button>
-            <button class="boton">3</button>
+            <button class="boton" id="n3">3</button>
             <button class="boton">/</button>
             <button class="boton">%</button>
             <button class="boton">In</button>
@@ -53,11 +54,11 @@
             <button class="boton">9</button>
             <button class="boton">-</button>
             <button class="boton">AC</button>
-            <button class="boton">=</button>
+            <button class="row-2">=</button>
             <button class="boton">.</button>
             <button class="boton">0</button>
             <button class="boton">π</button>
-            <button class="boton">+</button>
+            <button class="boton" id="suma">+</button>
             <button class="boton">MR</button>
         </div>
     </div>
@@ -67,5 +68,6 @@
         </div>
     
     </footer>
+    <script src="/index.js"></script>
 </body>
 </html>
